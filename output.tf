@@ -14,6 +14,6 @@ output "public_subnet_ids" {
 output "private_subnet_ids" {
     value =aws_subnet.private[*].id
 }
-output "databse_subnet_ids" {
+output "database_subnet_ids" {
     value =aws_subnet.database[*].id
 }
